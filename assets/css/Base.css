@@ -1,0 +1,18 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/muro-black.jpg');
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    #product-gallery {
+        flex-direction: column;
+    }
+}
