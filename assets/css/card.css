@@ -16,6 +16,9 @@
 .sub-titulo {
     margin: 10px;
 }
+.card01 {
+    margin-top: 20px;
+}
 .container__ofertas {
     display: flex;
 }
