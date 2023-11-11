@@ -1,4 +1,6 @@
-/* Reset CSS */
+:root{
+    --agbalumo:'agbalumo', sans-serif, roboto;
+}
 * {
     margin: 0;
     padding: 0;
