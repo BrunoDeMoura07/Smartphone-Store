@@ -1,12 +1,22 @@
 .rodape {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    font-size: 12px;
     background-color: #ee8419;
     color:#333;
     padding: 20px;
 }
 .rodape__contato {
+    max-width:100% ;
     text-align: center;
     gap: 3px;
+}
+.copyright {
+    font-size: 10px;
+}
+.lista__contato {
+    display: flex;
+    justify-content: center;
+    left: 3%;
 }
