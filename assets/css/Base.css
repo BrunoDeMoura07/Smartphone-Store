@@ -1,4 +1,7 @@
 :root{
+    --cor-verde: #28a745;
+    --cor-azul: #007bff;
+    --cor-branco: #fff;
     --agbalumo:'agbalumo', sans-serif, roboto;
 }
 * {

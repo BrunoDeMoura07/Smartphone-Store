@@ -4,6 +4,23 @@
     margin-top: 30px;
     padding: 20px;
 }
+
+.card {
+    display: flex;
+    flex-basis: calc(25% - 30px);
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.container__link {
+    flex-wrap: wrap;
+}
+
 .sub-titulo {
     font-size: 1.8rem;
     color:  rgb(249, 149, 35);
@@ -12,19 +29,7 @@
     left: 5%;
 }
 
-.card {
-    flex-basis: calc(25% - 30px);
-    margin: 15px;
-    padding: 15px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
-    width: auto;
-}
-
 .img__oferta {
-    text-align: center;
-    width: 90%;
     max-width: 100%;
     height: auto;
     max-height: 250px;
