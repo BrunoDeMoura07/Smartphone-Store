@@ -12,6 +12,9 @@
 .button__login {
     background-color: var(--cor-verde);
 }
+.bnt__lojaOficial {
+    padding: 5px;
+}
 .button__login:hover,
 .button__login:hover, .bnt__lojaOficial:hover{
     transform: scale(1.05);
