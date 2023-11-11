@@ -15,9 +15,9 @@
     text-align: center;
     gap: 3px;
 }
-.lista__contato p {
+.rodape__contato>p {
     font-weight: 400;
-    font-family:var(fontTitulo)
+    font-family: var(--fontTitulo)
 }
 .copyright {
     font-size: 10px;
