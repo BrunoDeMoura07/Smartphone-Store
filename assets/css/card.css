@@ -7,19 +7,23 @@
 
 .card {
     display: flex;
-    flex-basis: calc(25% - 30px);
+    flex-basis: calc(33.33% - 30px);
     margin: 15px;
     padding: 15px;
     background-color: #f2f2f2;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
-.container__oferta {
-    margin:40% 0 0 2%;
+.container__detalhes {
+    margin-top: 20%;
 }
 .detalhes {
-    flex-wrap: nowrap;
     text-align: start;
+}
+.lista__detalhes p {
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
 }
 
 .container__link {
