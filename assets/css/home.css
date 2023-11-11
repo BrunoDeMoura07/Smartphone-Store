@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-image: url(../img/pixels.jpg);
+    background-image: url("https://images.pexels.com/photos/17485819/pexels-photo-17485819/free-photo-of-3d-abstrato-resumo-abstrair.png?auto=compress&cs=tinysrgb&w=600");
     background-size: cover;
     background-repeat: no-repeat;
     color: #ee8419;
@@ -28,7 +28,7 @@
     font-size: 2.2em;
     font-weight: 700;
     color: rgb(249, 149, 35);
-    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 1.5px rgb(66, 65, 65);
 }
 
 .container__input {
