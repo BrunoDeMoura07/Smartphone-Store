@@ -6,11 +6,18 @@
     background-color: #ee8419;
     color:#333;
     padding: 20px;
+    height: auto;
+    width: auto;
 }
 .rodape__contato {
-    max-width:100% ;
+    max-width:100%;
+    height: auto;
     text-align: center;
     gap: 3px;
+}
+.lista__contato p {
+    font-weight: 400;
+    font-family:var(fontTitulo)
 }
 .copyright {
     font-size: 10px;
@@ -18,5 +25,9 @@
 .lista__contato {
     display: flex;
     justify-content: center;
-    left: 3%;
+    gap: 2%;
+}
+.icon {
+    color:var(--cor-blacklight);
+    font-size: 20px;
 }

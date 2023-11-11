@@ -2,7 +2,8 @@
     --cor-verde: #28a745;
     --cor-azul: #007bff;
     --cor-branco: #fff;
-    --agbalumo:'agbalumo', sans-serif, roboto;
+    --cor-blacklight:#333;
+    --fontTitulo:'agbalumo', sans-serif, roboto;
 }
 * {
     margin: 0;
