@@ -29,6 +29,7 @@
     font-family: var(--agbalumo);
     color: rgb(249, 149, 35);
     -webkit-text-stroke: 1.5px rgb(66, 65, 65);
+    margin-left: 10px;
 }
 
 .container__input {
