@@ -6,6 +6,7 @@
 }
 
 .card {
+    display: flex;
     flex-basis: calc(25% - 30px);
     margin: 15px;
     padding: 15px;
@@ -16,13 +17,12 @@
 .sub-titulo {
     margin-bottom: 30px;
 }
-.container__ofertas {
-    display: flex;
+.container__oferta {
+    margin:40% 0 0 2%;
 }
 .detalhes {
-    display: block;
+    flex-wrap: nowrap;
     text-align: start;
-    text-decoration: 2px solid;
 }
 
 .container__link {
