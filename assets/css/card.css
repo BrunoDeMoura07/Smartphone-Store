@@ -22,12 +22,13 @@
     width: auto;
 }
 
-.card img {
-    max-width: 100%;
+.img__oferta {
+    text-align: center;
+    width: 90%;
     height: auto;
     margin-bottom: 10px;
 }
-.card img:hover {
+.img__oferta:hover {
     transform: scale(1.05);
 }
 

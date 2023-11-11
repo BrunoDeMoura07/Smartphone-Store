@@ -1,18 +1,22 @@
 .container__input button,
-.button__login {
+.button__login, .bnt__lojaOficial, .bnt__detalhes {
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
+    margin-bottom: 10px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.bnt__detalhes{
+    background-color: #4ab663;
 }
 .button__login {
     background-color:  #28a745;
 }
 .container__input button:hover,
-.button__login:hover {
+.button__login, .bnt__lojaOficial, .bnt__detalhes:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

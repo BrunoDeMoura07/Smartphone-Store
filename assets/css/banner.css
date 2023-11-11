@@ -3,7 +3,7 @@
     height: 350px;
     background-image: url('https://i.imgur.com/1g8z9JL.jpg');
     background-size: cover;
-    background-position:center;
+    background-position:top;
     animation: changeBackground 20s infinite;
 }
 
@@ -12,7 +12,7 @@
         background-image: url('https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600');
     }
     25% {
-        background-image: url('https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-12-pro-5g/pc/090e79a757530b7a87c77c88a88e5feb.png');
+        background-image: url('../img/semanadoconsumidor.png');
     }
     50% {
         background-image: url('https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=600');
