@@ -16,7 +16,7 @@
     background-color:  #28a745;
 }
 .container__input button:hover,
-.button__login, .bnt__lojaOficial, .bnt__detalhes:hover {
+.button__login:hover, .bnt__lojaOficial:hover, .bnt__detalhes:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

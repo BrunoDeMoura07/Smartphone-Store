@@ -25,7 +25,9 @@
 .img__oferta {
     text-align: center;
     width: 90%;
+    max-width: 100%;
     height: auto;
+    max-height: 250px;
     margin-bottom: 10px;
 }
 .img__oferta:hover {
