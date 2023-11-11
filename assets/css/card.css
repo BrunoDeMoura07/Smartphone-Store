@@ -14,9 +14,6 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
-.sub-titulo {
-    margin-bottom: 30px;
-}
 .container__oferta {
     margin:40% 0 0 2%;
 }
@@ -30,11 +27,10 @@
 }
 
 .sub-titulo {
+    position: absolute;
     font-size: 1.8rem;
     color:  rgb(249, 149, 35);
-    position: absolute;
-    margin-top: -2%;
-    left: 5%;
+    margin: -3% 0 0 5%
 }
 
 .img__oferta {
@@ -51,10 +47,16 @@
     .card {
         flex-basis: calc(50% - 30px);
     }
+    .sub-titulo {
+        margin-top: -5%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .card {
         flex-basis: calc(100% - 30px);
+    }
+    .sub-titulo {
+        margin-top: -8%;
     }
 }
