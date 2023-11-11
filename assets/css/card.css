@@ -7,13 +7,14 @@
 
 .card {
     display: flex;
-    flex-basis: calc(33.33% - 30px);
+    flex-basis: calc(25% - 30px);
     margin: 15px;
     padding: 15px;
     background-color: #f2f2f2;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
+
 .container__detalhes {
     margin-top: 20%;
 }
@@ -27,14 +28,17 @@
 }
 
 .container__link {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .sub-titulo {
     position: absolute;
     font-size: 1.8rem;
     color:  rgb(249, 149, 35);
-    margin: -3% 0 0 5%
+    margin: -3% 0 0 5%;
 }
 
 .img__oferta {
@@ -42,7 +46,6 @@
     width: 70%;
     height: auto;
     max-height: 250px;
-    margin: 20px;
 }
 .img__oferta:hover {
     transform: scale(1.03);
