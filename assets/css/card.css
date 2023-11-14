@@ -1,28 +1,24 @@
 .container__card {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 25px;
-    padding: 20px;
+    margin-top: 10px;
 }
 
 .card {
-    flex-basis: calc(20% - 20px);
+    flex-basis: calc(20%);
     text-align: center;
-    border-radius: 3px solid var(--cor-azul);
-    border-radius: 5px;
-    background-color: var(--cor-blacklight);
+    margin-top: 10px;
 }
 
 
 @media screen and (max-width: 768px) {
     .card {
-        flex-basis: calc(25% - 30px);
+        flex-basis: calc(25%);
     }
 }
 
 @media screen and (max-width: 480px) {
     .card {
-        flex-basis: calc(50% - 30px);
+        flex-basis: calc(50%);
     }
 }

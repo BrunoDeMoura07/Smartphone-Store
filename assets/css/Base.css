@@ -14,7 +14,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(var(--cor-branco),var(--cor-azul));
+    background-image: url('../img/background.jpg');
+    background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
