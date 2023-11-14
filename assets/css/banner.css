@@ -1,24 +1,23 @@
 .banner {
     width: 100%;
     height: 350px;
-    background-image: url('https://i.imgur.com/1g8z9JL.jpg');
     background-size: cover;
-    background-position:top;
-    animation: changeBackground 20s infinite;
+    background-position: top;
+    animation: changeBackground 10s infinite;
 }
 
 @keyframes changeBackground {
-    0% {
-        background-image: url('https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600');
+    0%  {
+        background-image: url('../img/img2.jpg');
     }
     25% {
-        background-image: url('../img/semanadoconsumidor.png');
+        background-image: url('../img/off60.png');
     }
     50% {
-        background-image: url('https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=600');
+        background-image: url('../img/img1.jpg');
     }
     75% {
-        background-image: url('https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg?auto=compress&cs=tinysrgb&w=600');
+        background-image: url('../img/banner2.jpg');
     }
     100% {
         background-image: url('https://images.pexels.com/photos/2093322/pexels-photo-2093322.jpeg?auto=compress&cs=tinysrgb&w=600');

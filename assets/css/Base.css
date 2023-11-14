@@ -3,6 +3,7 @@
     --cor-azul: #007bff;
     --cor-branco: #fff;
     --cor-blacklight:#333;
+    --cor-laranja:#ee8419;
     --fontTitulo:'agbalumo', sans-serif, roboto;
 }
 * {
@@ -13,8 +14,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../img/background.png');
-    background-size: cover;
+    background: linear-gradient(var(--cor-branco),var(--cor-azul));
 }
 
 @media only screen and (max-width: 600px) {

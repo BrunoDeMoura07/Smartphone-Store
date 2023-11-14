@@ -1,9 +1,23 @@
-setInterval(changeBackground, 10000);
+const bannerImage = document.getElementById("banner-image");
+let currentIndex = 0;
 
-function changeBackground() {
-    const banner = document.getElementById("#banner");
-    const imagem = ['https://i.imgur.com/1g8z9JL.jpg','https://i.imgur.com/7jKZv3B.jpg'];
-    const currentIndex = imagem.indexOf(banner.style.backgroundImage.slice(5,-2));
-    const nextIndex = (currentIndex + 1) % imagem.length;
-    banner.style.backgroundImage = 'url('+ imagem[nextIndex]+')';
+
+bannerImage.addEventListener('load', function() {
+    setTimeout(() => {
+        bannerImage.classList.remove('fade-in-animation');
+    }, 1000);
+});
+
+setInterval(changeImage, 11000);
+
+const images = ['./assets/img/banner2.jpg', './assets/img/semanadoconsumidor.png'];
+
+function changeImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+
+    bannerImage.classList.add('fade-in-animation');
+
+    bannerImage.src = images[currentIndex];
 }
+
+
