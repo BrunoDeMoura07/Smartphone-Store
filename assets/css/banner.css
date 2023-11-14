@@ -3,23 +3,26 @@
     height: 350px;
     background-size: cover;
     background-position: top;
-    animation: changeBackground 10s infinite;
+    animation: changeBackground 25s infinite;
 }
 
 @keyframes changeBackground {
     0%  {
         background-image: url('../img/img2.jpg');
     }
-    25% {
+    20% {
         background-image: url('../img/off60.png');
     }
-    50% {
+    40% {
         background-image: url('../img/img1.jpg');
     }
-    75% {
+    60% {
         background-image: url('../img/banner2.jpg');
     }
-    100% {
-        background-image: url('https://images.pexels.com/photos/2093322/pexels-photo-2093322.jpeg?auto=compress&cs=tinysrgb&w=600');
+    80% {
+        background-image: url('../img/img7.jpg');
+    }
+    100%{
+        background-image: url('../img/img8.jpg');
     }
 }
