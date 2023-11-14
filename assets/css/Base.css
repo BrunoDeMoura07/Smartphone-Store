@@ -14,6 +14,5 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../img/background.jpg');
-    background-size: cover;
+    background: linear-gradient(var(--cor-branco),var(--cor-azul));
 }
