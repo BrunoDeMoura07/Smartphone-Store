@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 15px;
+}
+.banner__Image {
+    background-position: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-basis: calc(50%);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner {
+        flex-basis: calc(100%);
+    }
+}

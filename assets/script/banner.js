@@ -10,7 +10,7 @@ bannerImage.addEventListener('load', function() {
 
 setInterval(changeImage, 11000);
 
-const images = ['./assets/img/banner2.jpg', './assets/img/semanadoconsumidor.png'];
+const images = ['./assets/img/banner2.jpg', './assets/img/img1.jpg'];
 
 function changeImage() {
     currentIndex = (currentIndex + 1) % images.length;

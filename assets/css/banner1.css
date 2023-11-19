@@ -1,4 +1,5 @@
 .banner {
+    background-position: cover;
     height: 300px; 
     overflow: hidden;
 }

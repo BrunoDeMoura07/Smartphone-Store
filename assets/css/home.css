@@ -6,10 +6,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 10px;
-    background-image: url("../img/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(rgb(75, 74, 74), rgb(93, 198, 207));
     color: #ee8419;
 }
 .container__logo {
