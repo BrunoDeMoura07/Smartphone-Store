@@ -15,5 +15,5 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(var(--cor-branco),var(--cor-azul));
+    background: linear-gradient(var(--cor-branco) 40%,var(--cor-azul));
 }
