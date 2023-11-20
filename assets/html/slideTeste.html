@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #carousel {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            transition: transform 3s ease-in-out; /* Ajuste para 3 segundos */
+        }
+
+        .carousel-container {
+            display: flex;
+            transition: transform 3s ease-in-out; /* Ajuste para 3 segundos */
+        }
+
+        .carousel-item {
+            flex: 0 0 100%;
+            box-sizing: border-box;
+            overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+        }
+
+        .carousel-item img {
+            width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+            height: auto; /* Mantém a proporção original da imagem */
+            object-fit: cover; /* Garante que a imagem cubra completamente o contêiner */
+        }
+        .mobile{
+            display: none;
+        }
+
+        .radio-group {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .radio-group input {
+            margin: 0 3px;
+        }
+
+        @media (max-width: 600px) {
+            #carousel {
+                height: 200px; /* Ajuste de altura para dispositivos móveis */
+            }
+
+            .carousel-item img {
+                object-fit: contain; /* Para dispositivos móveis, mantenha a imagem dentro do contêiner */
+            }
+
+            .carousel-container {
+                flex-direction: column; /* Empilhe as imagens verticalmente em dispositivos móveis */
+            }
+
+            .mobile {
+                display: flex; /* Exibe imagens específicas para dispositivos móveis */
+            }
+
+            .desktop {
+                display: none; /* Oculta imagens originais em dispositivos móveis */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="carousel">
+    <div class="carousel-container">
+        <!-- Imagens para Desktop -->
+        <div class="carousel-item">
+            <img class="desktop" src="../img/slide/image1.jpg" alt="Imagem 1">
+            <img class="mobile" src="../img/Bruno's.svg" alt="Imagem 1 para Mobile">
+        </div>
+        <div class="carousel-item">
+            <img class="desktop" src="../img/slide/image2.jpg" alt="Imagem 2">
+            <img class="mobile" src="../img/brasao.svg" alt="Imagem 2 para Mobile">
+        </div>
+        <div class="carousel-item">
+            <img class="desktop" src="../img/slide/image3.jpg" alt="Imagem 3">
+            <img class="mobile" src="./assets/img/mobile-image-3.jpg" alt="Imagem 3 para Mobile">
+        </div>
+        <div class="carousel-item">
+            <img class="desktop" src="../img/slide/image4.jpg" alt="Imagem 4">
+            <img class="mobile" src="./assets/img/mobile-image-4.jpg" alt="Imagem 4 para Mobile">
+        </div>
+        <div class="carousel-item">
+            <img class="desktop" src="../img/slide/image5.jpg" alt="Imagem 5">
+            <img class="mobile" src="./assets/img/mobile-image-5.jpg" alt="Imagem 5 para Mobile">
+        </div>
+    </div>
+</div>
+
+<div class="radio-group">
+    <input type="radio" name="carousel-radio" id="radio1" onclick="setIndex(0)" checked>
+    <input type="radio" name="carousel-radio" id="radio2" onclick="setIndex(1)">
+    <input type="radio" name="carousel-radio" id="radio3" onclick="setIndex(2)">
+    <input type="radio" name="carousel-radio" id="radio4" onclick="setIndex(3)">
+    <input type="radio" name="carousel-radio" id="radio5" onclick="setIndex(4)">
+</div>
+<section class="botao">
+    <div class="container-botao">
+        <a href="index.html" target="_blank">
+            <button>loja</button>
+        </a>
+    </div>
+</section>
+
+<script>
+    const carousel = document.getElementById("carousel");
+    const container = document.querySelector(".carousel-container");
+    const items = document.querySelectorAll(".carousel-item");
+    const radios = document.querySelectorAll('.radio-group input');
+    let currentIndex = 0;
+
+    function showNextImage() {
+        currentIndex = (currentIndex + 1) % items.length;
+        updateCarousel();
+        updateRadio();
+    }
+
+    function updateCarousel() {
+        const newPosition = -currentIndex * 100 + "%";
+        container.style.transform = "translateX(" + newPosition + ")";
+    }
+
+    function updateRadio() {
+        radios[currentIndex].checked = true;
+    }
+
+    function setIndex(index) {
+        currentIndex = index;
+        updateCarousel();
+    }
+
+    setInterval(showNextImage, 6000);
+</script>
+
+</body>
+</html>
