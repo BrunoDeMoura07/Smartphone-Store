@@ -1,13 +1,12 @@
 const slide = document.getElementById("slide");
 const container = document.querySelector(".slide-container");
-const item = document.querySelectorAll(".slide-item");
-const radio = document.querySelectorAll(".radio-slide input");
+const items = document.querySelectorAll(".slide-item");
+const radios = document.querySelectorAll(".radio-slide input");
 let currentIndex = 0;
 
 function showNextImage() {
-  currentIndex = (currentIndex + 1) % item.length;
+  currentIndex = (currentIndex + 1) % items.length;
   updateSlide();
-  updateRadio();
 }
 
 function updateSlide() {
@@ -15,4 +14,4 @@ function updateSlide() {
   container.style.transform = "translateX(" + novaPosicao + ")";
 }
 
-setInterval(showNextImage, 10000);
+setInterval(showNextImage, 6000);
