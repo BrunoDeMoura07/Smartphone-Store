@@ -1,0 +1,38 @@
+#slide{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    transition: transform 3s ease-in-out;
+}
+
+.slide-container{
+    display: flex;
+    transition: transform 3s ease-in-out;
+}
+.slide-item{
+    flex: 0 0 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.slide-item img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.mobile{
+    display:none;
+}
+
+@media (max-width: 600px) {
+    #slide {
+        height: 300px; 
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+}

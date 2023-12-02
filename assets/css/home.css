@@ -4,7 +4,7 @@
     justify-content: end;
     align-items: center;
     width: 100%;
-    background: var(--cor-branco)
+    background: var(--cor-blacklight)
 }
 .container__logo {
     display: flex;
