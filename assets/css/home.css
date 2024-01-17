@@ -1,22 +1,22 @@
 .home {
-    display: flex;
-    justify-content:space-between;
-    width: 100%;
-    background: var(--cor-blacklight)
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--cor-nav);
 }
 .container__logo {
-    display: flex;
-    text-align: center;
-    height: 75px;
-    overflow: hidden;
+  display: flex;
+  text-align: center;
+  height: 75px;
+  overflow: hidden;
 }
 .img__logo {
-    object-fit: cover;
-    width: 200px;
-    height: auto;
+  object-fit: cover;
+  width: 200px;
+  height: auto;
 }
 @media screen and (max-width: 480px) {
-    .home {
-        justify-content: center;
-    }
+  .home {
+    justify-content: center;
+  }
 }

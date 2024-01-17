@@ -1,19 +1,20 @@
-:root{
-    --cor-preto: #333;
-    --cor-verde: #28a745;
-    --cor-azul: #007bff;
-    --cor-branco: #fff;
-    --cor-blacklight:#333;
-    --cor-laranja:#ee8419;
-    --fontTitulo:'agbalumo', sans-serif, roboto;
+:root {
+  --cor-nav: rgb(223, 220, 220);
+  --cor-preto: #333;
+  --cor-verde: #28a745;
+  --cor-azul: #007bff;
+  --cor-branco: #fff;
+  --cor-blacklight: #333;
+  --cor-laranja: #ee8419;
+  --fontTitulo: "agbalumo", sans-serif, roboto;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(var(--cor-branco) 40%,var(--cor-azul));
+  font-family: Arial, sans-serif;
+  background: linear-gradient(var(--cor-branco) 40%, var(--cor-azul));
 }
