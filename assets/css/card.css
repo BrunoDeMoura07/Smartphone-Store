@@ -12,7 +12,7 @@
 }
 
 .card__produto {
-  background-color: white;
+  background-color: var(--cor-branco);
   border: solid 3px var(--cor-cyan);
   border-radius: 5%;
   height: 400px;
