@@ -1,22 +1,25 @@
 .button__login,
-.button__login, .bnt__lojaOficial {
-    background-color: var(--cor-azul);
-    color: var(--cor-branco);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+.button__login,
+.bnt__comprar {
+  background-color: var(--cor-azul);
+  color: var(--cor-branco);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .button__login {
-    background-color: var(--cor-verde);
+  background-color: var(--cor-verde);
 }
-.bnt__lojaOficial {
-    padding: 5px;
+.bnt__comprar {
+  padding: 5px;
+  bottom: 1px;
 }
 .button__login:hover,
-.button__login:hover, .bnt__lojaOficial:hover{
-    transform: scale(1.05);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.button__login:hover,
+.bnt__comprar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
