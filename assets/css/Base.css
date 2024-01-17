@@ -2,6 +2,7 @@
   --cor-nav: rgb(223, 220, 220);
   --cor-preto: #333;
   --cor-verde: #28a745;
+  --cor-verdeClaro: rgb(90, 221, 166);
   --cor-azul: #007bff;
   --cor-branco: #fff;
   --cor-blacklight: #333;
@@ -17,5 +18,5 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: rgb(78, 231, 185);
+  background: var(--cor-verdeClaro);
 }

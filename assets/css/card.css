@@ -13,7 +13,7 @@
 
 .card__produto {
   background-color: white;
-  border: solid 3px var(--cor-laranja);
+  border: solid 3px var(--cor-cyan);
   border-radius: 5%;
   height: 400px;
   width: 300px;
