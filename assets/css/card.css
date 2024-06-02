@@ -23,6 +23,7 @@
   border-radius: 5%;
   height: 280px;
   background-size: cover;
+  padding: 10px;
 }
 
 .card__detalhes {
